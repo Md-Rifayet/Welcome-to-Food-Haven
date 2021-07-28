@@ -24,6 +24,12 @@ h4{
     color: black;
     font-weight: bold;
 }
+h5{
+    font-size: 25px;
+    color: black;
+    text-decoration: black;
+    font-weight: bold;
+}
 p{
     font-size: 15px;
     font-weight: bold;
@@ -53,6 +59,14 @@ p{
     color: white;
     font-weight: bold;
 }
+#submit{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(243, 226, 193), rgb(243, 152, 152));
+    padding: 15px 25px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
 #img-resize{
     width: 66%;
 }
@@ -73,7 +87,7 @@ p{
 }
 
 .fourth-section{
-    height: 400px;  
+    height: 300px;  
 }
 
 .extra-part-section{
@@ -156,6 +170,29 @@ footer{
     text-align: center;
     padding: 1.5%;
 }
+
+section{
+    height: 600px;
+}
+
+.for-align{
+color:  rgb(206, 231, 206);
+}
+
+.contact-section{
+text-align: center;
+}
+
+.contact-div{
+margin: 3%;
+padding: 4%;
+
+height: 300px;
+box-shadow: 40px 10px 20px gray;
+border-radius: 15px;
+background-color: rgb(206, 231, 206);
+}
+
 
 #footer-para{
     font-size: 20px;
