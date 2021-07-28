@@ -32,6 +32,15 @@ p{
   color: black;
 }
 
+.top-link{
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 #order-link{
     text-decoration: none;
     color: orange;
@@ -59,13 +68,16 @@ p{
       background-repeat: no-repeat;
 }
 .third-section{
-    height: 700px;
-    margin: 2%;
+    height: 720px;
+    margin: 3%;
 }
 
 .fourth-section{
-    height: 400px;
-    
+    height: 400px;  
+}
+
+.extra-part-section{
+    height: 50px;
 }
 /**All Section CSS End Here**/
 
@@ -128,6 +140,10 @@ p{
     margin-top: 3%;
     padding: 2%;
     line-height: 20px;
+}
+
+.extra-part-div{
+    margin-right: 5%;
 }
 /**All Div CSS End Here**/
 
