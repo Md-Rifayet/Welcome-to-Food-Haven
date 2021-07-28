@@ -2,6 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
     color: dimgray;
     background-color: whitesmoke;
+    border: rgba(0, 0, 0, 0.582) solid 3px;
+    margin: 0%;
 }
 h1{
     font-size: 60px;
@@ -52,6 +54,11 @@ p{
     height: 700px;
     margin: 2%;
 }
+
+.fourth-section{
+    height: 400px;
+    
+}
 /**All Section CSS End Here**/
 
 /**All Div CSS Start Here**/
@@ -96,4 +103,38 @@ p{
 .recipies-style h4{
     margin-left: 3%;
 }
+
+.follower-part{
+   
+    height: 250px;
+    width: 85%;
+    margin: 8%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.social-media{
+    float: left;
+    margin: 8%;
+    margin-top: 3%;
+    padding: 2%;
+    line-height: 20px;
+}
 /**All Div CSS End Here**/
+
+footer{
+    height: 300px;
+    background-color: black;
+}
+
+.footer-div{
+    text-align: center;
+    padding: 1.5%;
+}
+
+#footer-para{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
